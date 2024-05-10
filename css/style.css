@@ -1,0 +1,40 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+
+
+.album .card {
+  height: 100%; /* Ensure the card body fills the entire height */
+}
+
+.album .card-text {
+  font-size: 30px; /* Increase the font size */
+}
+
+.album .card img {
+  width: 100%; /* Ensure the image fills the entire width of the card */
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the image covers the entire space while maintaining its aspect ratio */
+}
+
